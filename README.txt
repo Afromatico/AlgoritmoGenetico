@@ -22,7 +22,16 @@ Este algoritmo esta enfocado a ser lo mas genérico posible así que puede no se
 
 De los test realizados por lo general demora aproximadamente 14-30 generaciones en encontrar una solución al problema, aun así ocurre menudo que se cae en un mínimo local difícil de salir que toma mas generaciones (50- 130), pasado ese limite opte por iniciar una nueva configuración desde zero.
 
-Por lo mismo explicado anteriormente el tiempo de solución es variable, tomando en torno a 3 segundos si se encuentra dentro de las primeras 30 generaciones, y sumando 20 si esa configuración llego a un mínimo local. 
+Por lo mismo explicado anteriormente el tiempo de solución es variable, tomando en torno a 3 segundos si se encuentra dentro de las primeras 30 generaciones, y sumando 20 si esa configuración llego a un mínimo local.
+
+Para distintos valores de probabilidad de mutación, con valores de mas de 0,3 es muy probable que no se encuentre solución al problema, dado que es muy probable que retroceda lo aprendido.
+
+
+El git del proyecto es https://github.com/Afromatico/AlgoritmoGenetico.git
+
+El autor es Américo Ferrada, pero estoy trabajando desde el pc de un amigo así que se subieron los commits como si fuera Joaquin Torres
+
+Tengo problemas con servicios de google desde donde estoy trabajando así que tengo que mandar todo por este formato de texto.
 
 
 

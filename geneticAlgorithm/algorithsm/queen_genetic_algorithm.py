@@ -36,7 +36,7 @@ class QueenGenetic(GeneticAlgorithm):
 
             i += 1
 
-            if not our_elements and i % 200 == 0:
+            if not our_elements and i % 50 == 0:
 
                 self.populate()
 
