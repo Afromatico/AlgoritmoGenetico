@@ -1,4 +1,4 @@
-class genericEvaluator():
+class genericEvaluator:
 
     def __init__(self, data, compare_method):
         self.data = data

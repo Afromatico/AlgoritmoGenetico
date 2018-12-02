@@ -13,3 +13,37 @@ class QueenGenetic(GeneticAlgorithm):
             else:
                 new_gens.append(gen)
         return new_gens
+
+    def genetic_generate(self, score, eval, divide):
+
+        self.populate()
+
+        self.evaluate(eval)
+
+        our_elements = self.eval(score)
+
+        i = 0
+
+        while not our_elements or i > 2000:
+
+            self.select_parents()
+
+            self.reproduction(divide)
+
+            self.evaluate(eval)
+
+            our_elements = self.eval(score)
+
+            i += 1
+
+            if not our_elements and i % 200 == 0:
+
+                self.populate()
+
+                self.evaluate(eval)
+
+                our_elements = self.eval(score)
+
+                i += 1
+
+        return self.bests

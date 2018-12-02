@@ -15,6 +15,7 @@ class GeneticAlgorithm:
         self.bests = []
 
     def populate(self):
+        self.data = []
         for _ in range(self.population):
             element = [self.define(self.random_define()), 0]
             self.data.append(element)
