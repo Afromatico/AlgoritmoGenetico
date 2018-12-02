@@ -29,6 +29,8 @@ plt.plot(range(0, len(plotValues)), plotValues)
 
 plt.show()
 
+plt.savefig('grafico' + str(time.time()) + '.png')
+
 table = np.array([[val2 == 'queen' for val2 in val1] for val1 in elements[len(elements) - 1][0]])
 
 print(table)

@@ -8,7 +8,7 @@ Para ejecutar el código basta en un shell:
 
 	- ubicar la consola dentro de la carpeta de la Tarea
 
- 	- ejecutar: python -m geneticAlgorithm.main 10 0.1   
+ 	- ejecutar: python -m geneticAlgorithm.main 10 0.01   
 
 El primer parámetro corresponde al tamaño del tablero
 Segundo parámetro corresponde a la probabilidad de mutación
@@ -25,7 +25,7 @@ De los test realizados por lo general demora aproximadamente 14-30 generaciones 
 Por lo mismo explicado anteriormente el tiempo de solución es variable, tomando en torno a 3 segundos si se encuentra dentro de las primeras 30 generaciones, y sumando 20 si esa configuración llego a un mínimo local.
 
 Para distintos valores de probabilidad de mutación, con valores de mas de 0,3 es muy probable que no se encuentre solución al problema, dado que es muy probable que retroceda lo aprendido.
-
+Para valores mas peque; os la solución se encuentra rápidamente si es que se partió de una buena base, si no es muy difícil salir de los mínimos globales
 
 El git del proyecto es https://github.com/Afromatico/AlgoritmoGenetico.git
 
@@ -33,5 +33,5 @@ El autor es Américo Ferrada, pero estoy trabajando desde el pc de un amigo así
 
 Tengo problemas con servicios de google desde donde estoy trabajando así que tengo que mandar todo por este formato de texto.
 
-
+Adjunto imágenes en la entrega dado que no puedo agregarlas al archivo txt por restricciones ya mencionadas.
 
